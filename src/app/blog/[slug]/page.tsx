@@ -21,8 +21,20 @@ export default async function BlogPostPage({ params }: Props) {
   const { slug } = await params;
   let post;
   try { post = await getPost(slug); } catch { notFound(); }
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.date,
+    author: { '@type': 'Organization', name: 'Nudge', url: 'https://nudgeclean.app' },
+    publisher: { '@type': 'Organization', name: 'Nudge', url: 'https://nudgeclean.app' },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': `https://nudgeclean.app/blog/${slug}` },
+    keywords: post.tags.join(', '),
+  };
   return (
     <article className='max-w-3xl mx-auto px-4 py-12'>
+      <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
       <Link href='/blog' className='text-sm text-emerald-600 hover:underline mb-8 inline-block'>&larr; All posts</Link>
       <div className='flex flex-wrap gap-2 mb-4'>
         {post.tags.map((tag) => <span key={tag} className='text-xs px-2 py-0.5 bg-emerald-50 text-emerald-700 rounded-full'>{tag}</span>)}

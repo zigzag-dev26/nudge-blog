@@ -1,0 +1,44 @@
+# Nudge – AI Cleaning Coach
+
+> An AI-powered cleaning coach for people with ADHD, executive dysfunction, and task initiation struggles. Available on iOS.
+
+## What Nudge Does
+
+Nudge is a cleaning motivation app that meets you where you are. Instead of rigid schedules and guilt-trip notifications, it uses AI to create a personalized cleaning plan based on your current energy level and available time.
+
+## Who It's For
+
+- People with ADHD who struggle to start cleaning tasks
+- Adults with executive dysfunction or task initiation difficulties
+- Anyone who feels overwhelmed by household cleaning
+- People who've tried cleaning apps like Sweepy or Tody and found them too rigid or shame-inducing
+
+## Key Features
+
+- **AI Daily Plans**: Tell the app your energy level (1–5) and available time. Get a personalized cleaning plan that fits how you feel right now.
+- **Panic Button**: "Can't Start?" gives you ONE micro-task under 2 minutes to break the freeze.
+- **Panic Clean Mode**: Guests coming in 20 minutes? Get a speed-clean list prioritized by visual impact.
+- **AI Task Decomposition**: Breaks "clean the kitchen" into 5 tiny, checkable micro-steps.
+- **Scan My Mess**: Point your camera at a room — the AI tells you exactly where to start.
+- **Momentum Score**: Tracks effort, not perfection. "You showed up 4 of 7 days" matters more than how clean your house is.
+- **Shareable Progress Cards**: Like Spotify Wrapped, but for cleaning wins.
+- **Weekly AI Reports**: Pattern insights like "You clean best on Tuesday mornings."
+
+## How the AI Works
+
+Nudge uses Claude (Anthropic's AI) to generate personalized cleaning plans. When you scan a room, the AI analyzes the image and produces a prioritized task list specific to what it sees. All plans adapt to your stated energy and time constraints.
+
+## Pricing
+
+- Monthly: $6.99/month
+- Annual: $49.99/year (save 40%)
+- Free trial: 7 days
+
+## Platform
+
+- iOS (iPhone and iPad)
+- Website: https://nudgeclean.app
+
+## Keywords
+
+ADHD cleaning app, cleaning motivation app, AI cleaning coach, cleaning app for overwhelm, task initiation app, cleaning for people with ADHD, ADHD executive dysfunction app, how to start cleaning with ADHD, cleaning schedule ADHD, best cleaning app for ADHD
